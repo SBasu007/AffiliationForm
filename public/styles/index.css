@@ -1,0 +1,129 @@
+
+.header{
+    background-color:bisque;
+    position: fixed;
+    display :flex;
+    flex-direction: column;
+    top: 0; /* Ensure it is at the top */
+    left: 0;
+    width: 100%;
+    padding: 10px 0; /* Optional: Add padding to the header */
+    margin: 0; /* Remove any margin from the header */
+    z-index: 1000; /* Ensure it appears above other content */
+    text-align: center;
+    align-items: center;
+}
+.head{
+    background-color:red;
+    color:white;
+    max-width: fit-content;
+    text-align: center;
+    font-weight: bold;
+    margin-top:10px
+}
+ol {
+    font-weight: lighter; /* Apply lighter font weight */
+    font-family: Arial, sans-serif; /* Optional: Choose a clean font */
+    line-height: 1.6; /* Optional: Improve readability */
+}
+h2{
+    margin:0;
+    color:#253b70;
+    text-align: center;
+}
+img{
+    text-align: center;
+}
+        /* General Reset */
+body, h1, label, input, textarea, select, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure all elements use border-box */
+    
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+/* Container Styling */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Title Styling */
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Form Group Styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure input fields stay within the container's padding */
+}
+
+input[type="checkbox"] {
+    width: auto;
+}
+
+/* Checkbox Group Styling */
+.checkbox-group {
+    margin: 15px 0;
+}
+
+.checkbox-group label {
+    font-weight: normal;
+}
+
+/* Submit Button Styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Styling for Mobile Devices */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+}
+.box{
+    transform: scale(1.5);
+}
+.checkbox-group{
+    display:flex;
+    gap:10px
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliation Form</title>
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+    <h2>Calcutta Talent Search School</h2>
+    <div style="text-align: center;">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-g2LuJkdhy4fLxJ0UHP_2uDM14s9dDGKeHw&s" width="50px" alt="Centered Image">
+    </div>
+    <h4 style="margin:auto;background-color:red; width:fit-content; color:white">APPLICATION FORM FOR AFFILIATION<h4>
+    <div class="container">
+        
+        <form action="/submit" method="POST">
+            <div class="form-group">
+                <label for="institution-name">Name of the Institution<span style="font-weight: 200;">(in Block Letters)</span></label>
+                <input type="text" id="institution-name" name="institution_name" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Full Address of Institution/Correspondence</label>
+                <textarea id="address" name="address" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" required>
+            </div>
+            <div class="form-group">
+                <label for="district">District</label>
+                <input type="text" id="district" name="district" required>
+            </div>
+            <div class="form-group">
+                <label for="post">Post Office</label>
+                <input type="text" id="post" name="post" required>
+            </div>
+            <div class="form-group">
+                <label for="pin">Pincode</label>
+                <input type="text" id="pin" name="pin" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Residence Phone</label>
+                <input type="tel" id="phone" name="phone">
+            </div>
+            <div class="form-group">
+                <label for="mobile">Mobile</label>
+                <input type="tel" id="mobile" name="mobile" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="foundation-year">Foundation Year</label>
+                <input type="text" id="foundation-year" name="foundation_year" required>
+            </div>
+            <div class="form-group">
+                <label for="students">Approx. Students</label>
+                <input type="number" id="students" name="students">
+            </div>
+            <div class="form-group">
+                <label for="principal">Full Name of Principal</label>
+                <input type="text" id="principal" name="principal" required>
+            </div>
+            <div class="form-group">
+                <label for="principal-address">Address</label>
+                <textarea id="principal-address" name="principal_address" rows="3" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="qualification">Qualification in Art</label>
+                <input type="text" id="qualification" name="qualification">
+            </div>
+            <div class="form-group">
+                <label for="alternative-mobile">Mobile(own)</label>
+                <input type="tel" id="own-mobile" name="own_mobile">
+            </div>
+            <div class="form-group">
+                <label for="alternative-mobile">Alternative Mobile</label>
+                <input type="tel" id="alternative-mobile" name="alternative_mobile">
+            </div>
+            <h4 style="text-align: center; color:#253b70">RULES AND REGULATIONS FOR OPENING OF AN EXAMINATION CENTRE</h4>
+            <ol>
+                <li>Any Drawing, Painting Institution from any parts of India can seek application in the prescribed form up to Advance Level 10th year.</li>
+                <li>To fix an Examination centre, the Institution concerned shall be required to send at least thirty Candidates every year.</li>
+                <li>If any Examination centre fails to send any Candidate for the first one year, the centre will lose its affiliation automatically.</li>
+                <li>The Registrar/Secretary of Calcutta Talent Search School has the right to refuse or cancel any affiliated centre at their discretion without giving any notice to the centre in charge concerned.</li>
+                <li>Affiliation will be granted in the name of the Secretary or in the name of the principal.</li>
+                <li>Inspection of an affiliated Institution shall be conducted by a person or persons appointed from time to time by Calcutta Talent Search School for the purpose.</li>
+                <li>Calcutta Talent Search School is just holding the Examination for the students of the affiliated centre. Calcutta Talent Search School is not responsible or involved in any legal binding or any other problems related to the affiliated training centre at any time.</li>
+                <li>In the event of any act like epidemic, flood, famine, civil disturbance, etc., in a particular part of India, Calcutta Talent Search School will have every right to deviate from the usual procedures or impose any new instruction to the affected centre in the affected area without any prior notice.</li>
+                <li>Calcutta Talent Search School Level-wise courses are not recognized by any State Governments, Education Societies, and Education Boards. Please give clear information to the guardians.</li>
+                <li>All disputes are subject to Kolkata Jurisdiction.</li>
+            </ol>
+            <h4 style="margin-left:0px;color:red">DECLARATION</h4>
+            <div class="checkbox-group">
+                    <div class="declaration">I hereby declare that I/We am are interested to have our Institution affiliated to Calcutta Talent Search School, I/We amare in a position to start an Examination Centre as per your syllabus. We have read your rules and regulations and shall uphold the ideal of Calcutta Talent Search School. The particular regrading mylour institution are given below for your information which are correct and best of mylour knowledge. We assure you to abide by the exisiting rules and regulations or whatever further imposed or amended by Calcutta Talent Search School from time to me.</div>
+            </div>
+            <input type="checkbox"class="box" name="conditions" style="margin-right:10px" required><span style="font-weight:100">   I agree to abide by the declaration mentioned above.</span> 
+            <button type="submit" style="margin-top:10px;font-size: 15px;">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>
